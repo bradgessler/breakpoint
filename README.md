@@ -10,6 +10,23 @@ If you'd prefer the semantic awesomeness of string names to identify your querie
 
 **It is important to note** that due to limitations within the Sass language itself, which themselves stem from some potentially unexpected cascading from doing so, Breakpoint is unable to concat like media queries into a single media query. This means they will be spread out throughout your CSS. This is unfortunate, yes, but currently unavoidable. That being said, once [Sass Issue #241: Seperate Media/Browser Specific Markup to Separate Style Sheet](https://github.com/nex3/sass/issues/241) hits, be sure we're going to take full advantage of it.
 
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'breakpoint'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install breakpoint
+
+Then, at the top of your sass file, include breakpoint:
+
+    @import "breakpoint"
 
 ## Full documentation is available on the [Breakpoint Wiki](https://github.com/Team-Sass/breakpoint/wiki)
 
